@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
     {
         $dokters = [
             [
-            'nama' => 'Dr. Budi Santoso, Sp.PD',
+            'nama' => 'Budi Santoso, Sp.PD',
             'email' => 'budi.santoso@klinik.com',
             'password' => Hash::make('dokter123'),
             'role' => 'dokter',
@@ -27,7 +27,7 @@ class UserSeeder extends Seeder
             'poli' => 'Penyakit Dalam',
             ],
             [
-                'nama' => 'Dr. Siti Rahayu, Sp.A',
+                'nama' => 'Siti Rahayu, Sp.A',
                 'email' => 'siti.rahayu@klinik.com',
                 'password' => Hash::make('dokter123'),
                 'role' => 'dokter',
@@ -37,7 +37,7 @@ class UserSeeder extends Seeder
                 'poli' => 'Anak',
                 ],
                 [
-                'nama' => 'Dr. Ahmad Wijaya, Sp.OG',
+                'nama' => 'Ahmad Wijaya, Sp.OG',
                 'email' => 'ahmad.wijaya@klinik.com',
                 'password' => Hash::make('dokter123'),
                 'role' => 'dokter',
@@ -47,7 +47,7 @@ class UserSeeder extends Seeder
                 'poli' => 'Kebidanan dan Kandungan',
                 ],
                 [
-                'nama' => 'Dr. Rina Putri, Sp.M',
+                'nama' => 'Rina Putri, Sp.M',
                 'email' => 'rina.putri@klinik.com',
                 'password' => Hash::make('dokter123'),
                 'role' => 'dokter',
@@ -57,7 +57,7 @@ class UserSeeder extends Seeder
                 'poli' => 'Mata',
                 ],
                 [
-                'nama' => 'Dr. Doni Pratama, Sp.THT',
+                'nama' => 'Doni Pratama, Sp.THT',
                 'email' => 'doni.pratama@klinik.com',
                 'password' => Hash::make('dokter123'),
                 'role' => 'dokter',
